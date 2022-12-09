@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fastim",
-    version="0.1.0",
+    version="0.0.1",
     author="Bikram Saha",
     author_email="imbikramsaha@gmail.com",
     description="fastim helps you to import all the necessary ml and dl libraries by writing 1 line Code.",
