@@ -1,2 +1,2 @@
 # fastim
-fastim helps you to import all the necessary ml and dl libraries by writing 1 line Code.
+fastim helps you to import all the necessary Machine Learning and Deep Learning libraries by writing 1 line Code.
