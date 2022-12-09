@@ -3,6 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+
 setuptools.setup(
     name="fastim",
     version="0.1.0",
@@ -19,4 +20,29 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=[
+        'numpy',
+        'matplotlib',
+        'seaborn',
+        'fastai',
+        'pathlib',
+        'tqdm>=4.64.0',
+        'scipy',
+        'fastbook',
+        'timm',
+        'transformers',
+        'datasets',
+        'kaggle',
+        'defaults',
+        'fastcore>=1.3.8',
+        'torchvision>=0.8',
+        'pandas>=1.0.0',
+        'requests',
+        'pyyaml',
+        'fastprogress>=0.2.4',
+        'pillow>=6.0.0',
+        'scikit-learn',
+        'spacy',
+        'pytorch>=1.7.0',
+    ],
 )
