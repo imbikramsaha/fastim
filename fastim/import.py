@@ -37,7 +37,7 @@ from pandas.api.types import is_categorical_dtype,is_numeric_dtype
 from pdb import set_trace
 from PIL import Image
 
-# imprort all related to sklearn
+# import all related to sklearn
 
 from sklearn import *
 from sklearn.model_selection import train_test_split
@@ -49,7 +49,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import *
 
 
-# imprort all related to fastai
+# import all related to fastai
 import fastai
 from fastai import *
 from fastai.basics import *
@@ -65,11 +65,11 @@ from fastai.tabular.all import *
 from fastai.collab import *
 
 
-# imprort all related to PyTorch
+# import all related to PyTorch
 import torch
 from torch import nn
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, random_split
 from torch.utils.data import *
 from torchmetrics import *
 
@@ -78,8 +78,10 @@ from torchvision.transforms import ToTensor
 from torchvision.io import read_image
 from torchvision import datasets, transforms, models
 
+# import pytorch lightning
+import pytorch_lightning as pl
 
-# imprort all related to HuggingFace
+# import all related to HuggingFace
 from transformers import *
 from datasets import *
 
